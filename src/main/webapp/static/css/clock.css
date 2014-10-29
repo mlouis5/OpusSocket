@@ -1,0 +1,320 @@
+.clock-text {
+    position: absolute;
+    top: -5px;
+    right: 2px;
+    height: 30px;
+    vertical-align: top;
+}
+
+.temp-options-container {
+    margin-left: -25px;
+    position: relative;
+    width: 155px;
+    height: 305px;
+    /*border: 4px solid red;*/
+}
+
+.day-option {
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    background: url("../images/clock.png") no-repeat left;
+    text-align: right;;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    z-index: 9999;
+}
+
+#wakeup {
+    top: 0px;
+    left: 0px;
+}
+
+#to_work {
+    top: 75px;
+    left: 0px;
+}
+
+#from_work {
+    top: 150px;
+    left: 0px;
+}
+
+#to_sleep {
+    top: 225px;
+    left: 0px;
+}
+
+.clock, #clock-period, #clock-minutes, #clock-hours {
+    position: absolute;
+    left: 150px;
+    top: 21px;
+    width: 200px;
+    height: 200px;
+
+    border: 6px solid #cFcFcF;
+
+    text-align: center;
+    background-color: #ffffff;
+
+    transition: fade-in;
+    transition-duration: 1s;
+}
+
+#clock-period, #clock-minutes, #clock-hours {
+    position: absolute;
+
+    background-color: #ffffff;
+    color: #cFcFcF;
+
+    line-height: 188px;
+
+    width: 188px;
+    height: 188px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    border-radius: 50%;
+}
+
+#clock-hours {
+    z-index: 4;
+}
+
+#clock-period {
+    opacity: 0;
+    z-index: 4;
+}
+
+#clock-minutes {
+    opacity: 0;
+    z-index: 4;
+}
+
+#hour-label, #minute-label {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#clock-pointer {
+    position: absolute;
+    left: -23px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 17.3px 10px 0;
+    border-color: transparent #cfcfcf transparent transparent;
+    line-height: 0px;
+    _border-color: #000000 #cfcfcf #000000 #000000;
+    _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+}
+
+.times {
+    width: 30px;
+    height: 30px;
+
+    padding: 0;
+
+    font-size: 12px;
+
+    line-height: 30px;
+    text-align: center;
+
+    border-radius: 50%;
+    border: 2px solid #cfcfcf;
+    background-color: #FFAB68; /*#92DB72*/
+    color: #ffffff;
+}
+
+#hours-1 {
+    position: absolute;
+    top: 7.6px;
+    left: 119.7px;
+}
+
+#hours-2 {
+    position: absolute;
+    top: 38.3px;
+    left: 150.4px;
+}
+
+#hours-3 {
+    position: absolute;
+    top: 79px;
+    left: 158px;
+}
+
+#hours-4 {
+    position: absolute;
+    top: 119.7px;
+    left: 150.4px;
+}
+
+#hours-5 {
+    position: absolute;
+    top: 150.4px;
+    left: 119.7px;
+}
+
+#hours-6 {
+    position: absolute;
+    top: 158px;
+    left: 79px;
+}
+
+#hours-7 {
+    position: absolute;
+    top: 150.4px;
+    left: 38.3px;
+}
+
+#hours-8 {
+    position: absolute;
+    top: 119.7px;
+    left: 7.6px;
+}
+
+#hours-9 {
+    position: absolute;
+    top: 79px;
+    left: 0px;
+}
+
+#hours-10 {
+    position: absolute;
+    top: 38.3px;
+    left: 7.6px;
+}
+
+#hours-11 {
+    position: absolute;
+    top: 7.6px;
+    left: 38.3px;
+}
+
+#hours-12 {
+    position: absolute;
+    top: 0;
+    left: 79px;
+}
+
+#minutes-0 {
+    position: absolute;
+    top: 39.5px;
+    left: 79px;
+}
+
+#minutes-1 {
+    position: absolute;
+    top: 55.5px;
+    left: 117.69px;
+}
+
+#minutes-2 {
+    position: absolute;
+    top: 102.5px;
+    left: 117.69px;
+}
+
+#minutes-3 {
+    position: absolute;
+    top: 118.5px;
+    left: 79px;
+}
+
+#minutes-4 {
+    position: absolute;
+    top: 101.5px;
+    left: 40.31px;
+}
+
+#minutes-5 {
+    position: absolute;
+    top: 55.5px;
+    left: 40.31px;
+}
+
+#minutes-6 {
+    position: absolute;
+    top: 0;
+    left: 79px;
+}
+
+#minutes-7 {
+    position: absolute;
+    top: 11.6px;
+    left: 131.3px;
+}
+
+#minutes-8 {
+    position: absolute;
+    top: 54.1px;
+    left: 158.4px;
+}
+
+#minutes-9 {
+    position: absolute;
+    top: 102.61px;
+    left: 158.4px;
+}
+
+#minutes-10 {
+    position: absolute;
+    top: 142.4px;
+    left: 131.3px;
+}
+
+#minutes-11 {
+    position: absolute;
+    top: 158px;
+    left: 79px;
+}
+
+#minutes-12 {
+    position: absolute;
+    top: 142.4px;
+    left: 27.28px;
+}
+
+#minutes-13 {
+    position: absolute;
+    top: 102.61px;
+    left: 0px;
+}
+
+#minutes-14 {
+    position: absolute;
+    top: 54.1px;
+    left: 0px;
+}
+
+#minutes-15 {
+    position: absolute;
+    top: 11.6px;
+    left: 27.28px;
+}
+
+#period-am {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    left: 50%;
+    margin-left: -35px;
+}
+
+#period-pm {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    left: 50%;
+    margin-left: 5px;
+}

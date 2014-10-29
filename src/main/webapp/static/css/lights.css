@@ -1,0 +1,143 @@
+
+#light-container {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -850px;
+    display: block;
+    width: 1700px;
+    height: 580px;
+    border-radius: 3px;
+}
+
+.room-label {
+    position: absolute;
+    display: inline-block;
+    width: 215px;
+    height: 35px;
+    top: 272.5px;
+    left: 4px;
+    border-radius: 5px;
+
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;/*#008CD5;*/
+    text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+    background-color: #48D0FF;/*#EDC118;*/
+    text-transform: uppercase;
+    line-height: 35px;
+}
+
+#highlight {
+    position: absolute;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    /*z-index: 1;*/
+    border-radius: 50%;
+
+    background-color: #48D0FF;/*#EDC118;*/
+
+    top: 230px;
+    left: 215px;
+}
+
+.lights {
+    display: inline-block;
+    width: 64px;
+    height: 96px;
+    background: url("../images/light_off.png") no-repeat left;
+    vertical-align: top;
+}
+
+.lights:hover {
+    cursor: pointer;
+}
+
+.lights-on {
+    display: inline-block;
+    width: 64px;
+    height: 96px;
+    background: url("../images/light_on.png") no-repeat left;
+    vertical-align: top;
+}
+
+.detail-display, .detail-pane {
+    position: absolute;
+    display: inline-block;
+    width: 500px;
+    height: 325px;
+    vertical-align: top;
+
+    border: 8px solid #EDC118;
+
+    left: 50%;
+    top: 50%;
+
+    margin-top: -162.5px;
+    margin-left: -250px;
+    z-index: 5;
+
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+
+    background: -webkit-linear-gradient(down, #35BBBC , #31BDBC); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(down, #35BBBC , #31BDBC); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(down, #35BBBC , #31BDBC); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(180deg, #fafafa, #ffffff); /* Standard syntax */
+}
+
+#light-status{
+    position: absolute;
+    display: inline-block;
+    width: 90px;
+    height: 25px;
+    border: 3px solid #AFAFAF;
+
+    line-height: 25px;
+    font-size: 16px;
+
+    text-align: center;
+
+    background-color: #32BEBC;
+    color: #ffffff;
+
+    top: 10px;
+    left: 10px;
+
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+/*#detail-form{*/
+/*display: none;*/
+/*}*/
+
+.detail-input{
+    position: absolute;
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    vertical-align: top;
+
+    top: 50%;
+    margin-top: -275px;
+
+    right: 80px;
+
+    border: 25px solid #32BEBC;
+
+    background-color: #ffffff;
+
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+}
+
+.shadow {
+    -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.65);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.65);
+}
